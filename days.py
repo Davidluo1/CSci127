@@ -3,23 +3,10 @@
 #Modified by:  ADD YOUR NAME HERE
 
 def dayString(dayNum):
-     """
-     Takes as input a number, dayNum, and
-     returns the corresponding day name as a string.
-     Example: dayString(1) returns "Monday".
-     Assumes that input is an integer ranging from 1 to 7
-     """
      
-     dayString = ""
-
-     ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other than your name above, ###
-     ### this is the only section    ###
-     ### you change in this program. ###
-     ###################################
-
-     return(dayString)
+     days = {1:January, 2:February, 3:March, 4:April, 5:May, 6:June, 7:July}
+     
+     return(days[dayNum])
 
 
 
@@ -29,8 +16,6 @@ def main():
      print('The day is', dString)
 
 
-
-#Allow script to be run directly:
 if __name__ == "__main__":
      main()
                    
