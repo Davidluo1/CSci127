@@ -22,12 +22,10 @@ def dayString(dayNum):
      return(dayString)
 
 
-
 def main():
      n = int(input('Enter the number of the day: '))
      dString = dayString(n)
      print('The day is', dString)
-
 
 
 #Allow script to be run directly:
