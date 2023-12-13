@@ -7,7 +7,6 @@ import folium
 import pandas as pd
 
 
-
 def getData():
      """
      Asks the user for the name of the CSV and
@@ -105,7 +104,6 @@ def writeMap(cMap):
      """
      outF = input('Enter output file: ')
      cMap.save(outfile=outF)
-
 
 
 def main():
