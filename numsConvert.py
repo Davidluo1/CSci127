@@ -23,7 +23,6 @@ def num2string(num):
      return(numString)
 
 
-
 def main():
      nums = input('Enter a multi-digit number: ')
      newStr = ""
