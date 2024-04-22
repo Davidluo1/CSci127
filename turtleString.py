@@ -2,7 +2,6 @@
 #Email:      !YourEmailHere!
 #A program that uses command strings to control turtle drawing
 
-
 import turtle
 
 tess = turtle.Turtle()
