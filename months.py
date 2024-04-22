@@ -30,7 +30,6 @@ def main():
      print('The month is', mString)
 
 
-
 #Allow script to be run directly:
 if __name__ == "__main__":
      main()
