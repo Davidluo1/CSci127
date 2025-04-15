@@ -5,7 +5,7 @@
 
 def computeFare(zone, ticketType):
      """
-     Takes as two parameters: the zone and the ticket type.
+     Takes two parameters: the zone and the ticket type.
      Returns the LIRR Transit fare, as follows:
 
      If the zone is 1 and the ticket type is "peak", the fare is 8.75.
@@ -36,7 +36,7 @@ def main():
      fare = computeFare(z,t)
      print('The fare is', fare)
 
-#Allow script to be run directly:
+# Allow script to be run directly:
 if __name__ == "__main__":
      main()
                    
