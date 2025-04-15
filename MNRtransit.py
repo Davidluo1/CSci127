@@ -5,7 +5,7 @@
 
 def computeFare(zone, ticketType):
      """
-     Takes as two parameters: the zone and the ticket type.
+     Takes two parameters: the zone and the ticket type.
      Returns the Metro-North Railroad fare.
 
      If the zone is 1 and the ticket type is "peak", the fare is 6.75.
